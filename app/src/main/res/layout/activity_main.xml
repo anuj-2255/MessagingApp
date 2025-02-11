@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingVertical="16dp">
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/rect_rounded_grey_d9d9d9"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="@string/enter_sender_name_number"
+        android:imeOptions="actionDone|actionGo"
+        android:maxLines="1"
+        android:elevation="4dp"
+        android:paddingVertical="12dp"
+        android:singleLine="true"
+        android:layout_marginHorizontal="16dp"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="14dp"
+        android:textColorHint="@color/grey_8c8c8c"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="14sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_sms"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/item_sms"
+        tools:itemCount="4"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MessagingApp</string>
+    <string name="enter_sender_name_number">Enter Sender Name/Number</string>
+    <string name="filter">Filter</string>
+    <string name="sms_permissions_are_required_for_this_app">SMS permissions are required for this app</string>
+    <string name="no_sendernumber_found">no senderNumber found</string>
+    <string name="no_body_found">no body found</string>
+    <string name="no_date_found">no date found</string>
+    <string name="unable_to_detect_message">unable to detect message</string>
+</resources>
