@@ -1,4 +1,4 @@
-SMS Reader Android App
+Messaging App
 
 Overview
 
