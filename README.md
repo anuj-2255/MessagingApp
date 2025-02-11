@@ -31,7 +31,7 @@ Open in Android Studio
 Run the app on a real device (Emulator might not support SMS reception)
 Grant SMS Permissions when prompted
 
-📲 How It Works
+How It Works
 
 The app reads SMS messages from the device inbox on startup.
 A BroadcastReceiver listens for new SMS messages in real-time.
